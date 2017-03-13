@@ -15,3 +15,6 @@ Either way, you're gonna *copy and paste* the following:
 
 Now, you really _should_ use the `/User` folder for all of your own snippets, but truth be told, I just put the clips in the dir for the language I want it in.
 Because I'm a badass like that. X-P
+
+
+FYI - The master documentation on Sublime snippets can be found at http://docs.sublimetext.info/en/latest/extensibility/snippets.html
