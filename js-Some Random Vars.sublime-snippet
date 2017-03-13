@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[(function(){
+  window.aRay = [1,2,3,4];
+  window.aStr= "How r You\?"; // "QwErTeY Ioil";
+  window.aNum=123;
+  window.anObj = { now:"that", we:"are here", num:101, where:"ever"};
+  window.aSentance = "Now along the way we walk\, over hill and yonder\.";
+  window.hi = "Howdy";
+  window.alphARRAY = ["a","B","c","D"];
+  window.deepArr = [1,[2,3],[4,5,6],7];
+  window.xRay = ["a","b","c"];
+  window.qwe = ["a",3,"b",2,"A",1];
+  window.arr = ["re","markt","k","able"];
+  window.q = [1,2,3,4];
+  window.a = ["a","b","c","d"];
+})();$1]]></content>
+	<tabTrigger>gimmevars</tabTrigger>
+	<scope>source.js</scope>
+	<description>Random Vars</description>
+</snippet>
