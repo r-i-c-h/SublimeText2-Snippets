@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[function showMatch(str, reg) {
+    /* showmatch function For RegEx Testing purposes -  c\o http://javascript.info/tutorial/  */
+ var res = [], matches;
+ while(true) {
+   matches = reg.exec(str);
+   if (matches === null) {
+     break;
+   }
+   res.push(matches[0])
+   if (!reg.global) {
+     break;
+   }
+ }
+ alert(res); // change to RETURN if so desired...
+}]]></content>
+	<tabTrigger>showregexmatch</tabTrigger>
+	<scope>source.js</scope>
+	<description>Snippet for func() to Show RegEx Matches in Alert Window</description>
+</snippet>
